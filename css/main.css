@@ -21,41 +21,43 @@ body {
 }
 
 .logo img {
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
   float: left;
   width: 65px;
   height: auto;
-  margin-left: 50px;
-  margin-top: 50px;
+  margin-left: 80px;
+  margin-top: 45px;
 
 }
 
 /*MENU*/
 
 .subheader {
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
   width: 100%;
-  height: 100px;
+  height: 115px;
   margin: auto;
   position: fixed;
+  margin: 0px;
+  padding: 0px;
 }
 
-header .subheader nav {
-  outline: 1px solid yellow;
+.subheader nav {
+  /*outline: 1px solid yellow;*/
   float: left;
   width: 500px;
-  padding-top: 60px;
-  margin-left: 700px;
+  padding-top: 50px;
+  margin-left: 650px;
 
 }
 
-header .subheader nav ul li {
- outline: 1px solid green;
+.subheader nav ul li {
+ /*outline: 1px solid green;*/
  display: inline;
 }
 
 .subheader nav ul li a {
-  outline: 1px solid blue;
+  /*outline: 1px solid blue;*/
   color: #fff;
   font-size: 18px;
   padding: 0px;
@@ -70,25 +72,19 @@ header .subheader nav ul li {
 
 .subheader nav ul li:last-child {
   border: 1px solid #fff;
-  padding: 5px 1px;
+  padding: 12px 1px;
   margin: 0px;
   border-radius: 7px;
 }
 
 /*FORMULARIO*/
-form h1 {
-  color: #352384;
-  font-size: 30px;
-  line-height: 30px;
-
-}
 
 form {
   width: 41%;
   height: 420px;
   background-color: #fff;
   position: absolute;
-  padding: 35px;
+  padding: 60px;
   margin-left: 796px;
   margin-top: 115px;
   box-sizing: border-box;
@@ -110,18 +106,89 @@ input{
 }
 
 input[type=button] {
-  background-color: #18bc9c;
-  padding: 10px;
-  width: 200px;
-  border-radius: 5px;
+  background-color: #FF00BF;
+  padding: 15px 0px;
+  width: 180px;
+  border-radius: 7px;
   border: none;
-  margin-bottom: 0px;
+  margin-bottom: 18px;
   color: #fff;
-  font-size: 20px;
-  font-family: 'Lato', sans-serif;
-  font-weight: bold;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
 }
 
 input[type=button]:hover {
-  background-color: #209d84;
+  color: #728099;
+  text-decoration: underline;
+  background-color: #fff;
+}
+
+input[type=phone] {
+  /*outline: 1px solid red;*/
+  color: #b5b7bb;
+  font-size: 16px;
+  padding-left: 0px;
+  margin: 15px 0px 15px 0px;
+
+}
+
+form h1 {
+  color: #352384;
+  font-size: 40px;
+  line-height: 1.1;
+  letter-spacing: 2.2px;
+}
+
+form h2 {
+  color: #352384;
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 2.2px;
+  font-weight: lighter;
+}
+
+form p {
+  color: #728099;
+  font-size: 9px;
+  line-height: 2.2;
+}
+
+form p a {
+  color: #FF00BF;
+  font-size: 9px;
+  line-height: 2.2;
+  text-decoration: none;
+}
+form p a:hover {
+  color: #c44aa6;
+  font-size: 9px;
+  line-height: 2.2;
+  text-decoration: underline;
+}
+
+/*SECTION FIRST*/
+
+.first {
+  position: relative;
+  background: linear-gradient(#76278F, #2B1E66);
+}
+
+.phone img {
+  outline: 1px solid red;
+  width: 400px;
+  height: auto;
+  float: left;
+  margin-left: 750px;
+margin-bottom: auto;
+
+}
+
+.first .text {
+  outline: 1px solid blue;
+  width: 50%;
+  height: auto;
+  margin-left: 100px;
+  margin-top: 100px;
+  float: left;
 }
